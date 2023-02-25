@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="stylesheet" href="css/styles.css">
+<meta charset="UTF-8">
+<script type="text/javascript">
+
+  </script>
+<title>Converter</title>
+</head>
+
+<h1>Converter</h1>
+<h2>Easily convert different number units</h2>
+
+<body>
+<center>
+ 
+  
+<div id="aa">
+
+ <table id="table">
+
+  <tr>
+   		<td> <button id="b1" onclick="show('operation1')"><h6>Numbers to Roman numerals</h6>
+    </button></td>
+    </tr>
+    
+    <tr>
+   			<td> <button id="b1" onclick="show('operation4')"><h6> Roman numerals to Numerals</h6>
+    </button></td>
+  </tr>
+  <tr>
+     <td>  <button id="b2" onclick="show('operation2')"><h6>Binary to Decimal</h6>
+    </button></td>
+   </tr>
+   
+   
+   <tr>
+    <td><button id="b2" onclick="show('operation3')"><h6>Decimal to Binary</h6>
+    </button></td>
+   </tr>
+ 
+</table> 
+</div>
+
+<div id="styledimg"></div>
+</center>
+
+
+
+<center>
+<div id="main_place">
+  
+</div>
+<div id=operation1 style=“display:none”>
+
+  <form method=get action=Converter>
+
+	<h2>Convert numbers to Roman numerals <br>
+	</h2>
+	<br><br>
+
+
+ Insert Number: <input type=text name=t1>
+
+<button type=submit name="btn"> Convert! </button><br><br>
+
+</form>
+</div>
+
+
+<div id=operation4 style=“display:none”>
+
+  <form method=get action=Converter>
+
+	<h2>
+	Convert Roman numerals to numbers</h2>
+	<br><br>
+
+
+ Insert Roman numerals: <input type=text name=t1>
+
+<button type=submit name="btn"> Convert! </button><br><br>
+
+</form>
+</div>
+
+<div id=operation2 style=“display:none”>
+
+
+  <form method=get action=Numbers>
+
+
+	<h2>Convert  Binary numbers to Decimal </h2> <br>
+	
+	<br><br>
+
+ Insert Binary Number: <input type=text name=t2>
+
+<button type=submit name="btn"> Convert! </button><br><br>
+
+</form>
+</div>
+
+
+
+<div id=operation3 style=“display:none”>
+
+
+  <form method=get action=Numbers>
+
+	<h2 id="decimal">Convert Decimal to Binary Numbers</h2> <br>
+	
+	<br><br>
+
+
+ Insert Decimal Number: <input type=text name=t2>
+
+<button type=submit name="btn" value=s> Convert! </button><br><br>
+
+</form>
+
+
+
+</div>
+
+</center>
+<br><br>
+
+
+</body>
+
+<script>
+
+function show(param_div_id) {
+    document.getElementById('main_place').innerHTML = document.getElementById(param_div_id).innerHTML;
+  }
+	
+</script>
+
+
+</html>

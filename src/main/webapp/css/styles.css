@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+head{
+	color: blue;
+
+	}
+body {
+  background-color: #fafad2;
+ 
+  }
+h1 {
+  color: blue;
+  text-align:center;
+}
+h2 {
+  color: black;
+  text-align:center;
+}
+p {
+
+}
+tr {
+	
+	
+	color:white;
+	
+	}
+#aa {float:right; display:inline;
+color:white; width: 49%;}
+
+#styledimg {
+	width: 200px;
+   height: 200px;
+
+    background: url(logo1.png);
+
+ background-size: cover;
+ background-position: center center;
+
+
+
+
+
+}
+#operation1,#operation2,#operation3,#operation4{
+	display:none;
+	}
+
+#b1{
+	width:400px;
+	background-color:white;
+	float:left;
+	}
+#but1{
+	
+	width:100px;
+	text-align:center;
+	
+	}
+	
+#b2{
+	width:400px;
+	background-color:#02051E;
+	float:left;
+	color:white;
+	}
