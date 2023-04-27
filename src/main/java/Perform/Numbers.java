@@ -23,7 +23,7 @@ public class Numbers extends HttpServlet {
 		   
 		   int i=(int)Math.floor(Math.sqrt(broj));
 		   
-		   System.out.println(i);
+		   
 		   while(i>=0) {
 		   	num=(int) Math.pow(2,i);
 		   	if((broj-num<Math.abs(broj-Math.pow(2,i-1))) && broj>=num) {
@@ -49,7 +49,7 @@ public class Numbers extends HttpServlet {
 			   else
 				   k1=k1+1;
 		   }
-		   System.out.println(k1);
+		  
 		   String finalni2="";
 		   
 		   for(int z=k1;z<finalni.length();++z) {
@@ -57,7 +57,7 @@ public class Numbers extends HttpServlet {
 		   }
 		   finalni="";
 		   finalni=finalni2;
-		   System.out.println(finalni2);
+		  
 		   return finalni;
 		  
 				

@@ -26,7 +26,7 @@
     </tr>
     
     <tr>
-   			<td> <button id="b1" onclick="show('operation4')"><h6> Roman numerals to Numerals</h6>
+   			<td> <button id="b1" onclick="show('operation4')"><h6> Roman numerals to Numbers</h6>
     </button></td>
   </tr>
   <tr>
@@ -49,7 +49,9 @@
 
 
 <center>
-<div id="main_place">
+
+
+<div id="here">
   
 </div>
 <div id=operation1 style=“display:none”>
@@ -133,7 +135,7 @@
 <script>
 
 function show(param_div_id) {
-    document.getElementById('main_place').innerHTML = document.getElementById(param_div_id).innerHTML;
+    document.getElementById('here').innerHTML = document.getElementById(param_div_id).innerHTML;
   }
 	
 </script>
